@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_robotik"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shadow"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/logorobotik" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ROBOTIC SAS pertama kali didirikan oleh Prodi D3 Teknologi Komputer Telkom University pada tahun 2012. ROBOTIC SAS merupakan sebuah studi grup yang bergerak dibidang robotka dan aktif untuk mengikuti kompetisi robotik baik nasional maupun internasional." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Seiring berjalannya waktu, studi grup ROBOTIC SAS seakin berkmebang dan membuka pelung bagi para mahasiswa Telkom University dari berbagai prodi untuk bergabung dalam studi grup ini. Banyak bidang perlombaan yang diikuti oleh Robotic SAS, seperti KRI,KKCTBN,KRTI,SAUVC,SRG,dll" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Banyak prestasi yang membanggakan yang pernah diraih oleh ROBOTIC SAS, dan semoga ROBOTIC SAS selalu menjadi yang terbaik sepanjang masa!!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="ROBOTIC SAS memiliki visi yang unik loohhhh Cerobic!!! " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="MENANG GA MENANG HARUS MENANG "
+            android:textColor="#780000"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</LinearLayout>
